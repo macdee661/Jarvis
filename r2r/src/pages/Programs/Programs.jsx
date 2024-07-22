@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../assets/2024.jpg';
+import image from '../../assets/2024.jpg';
 
 export default function ProgramCard() {
     return (
@@ -8,7 +8,7 @@ export default function ProgramCard() {
             <div className="flex flex-col items-center justify-center mb-10">
                 <h1 className="text-3xl font-bold mb-6 text-gray-900">Current Program</h1>
                 <div className="w-full flex justify-center">
-                    <a href="#" className="block bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300 w-full md:w-2/3 lg:w-1/2">
+                    <a href="programs/2024" className="block bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300 w-full md:w-2/3 lg:w-1/2">
                         <img src={image} alt="Current Program Image" className="w-full h-62 object-cover object-center" />
                         <div className="p-4">
                             <h3 className="text-xl font-semibold text-gray-900 mb-2">R2R 2024</h3>
@@ -39,9 +39,10 @@ export default function ProgramCard() {
                         </div>
                     </a>
                     
-                    {/* Add more previous program cards as needed */}
+                    
                 </div>
             </div>
         </div>
     );
 }
+ 

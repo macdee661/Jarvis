@@ -29,7 +29,7 @@ export default function Home() {
                     </a>
 
                     
-                    <a href="https://www.google.com" className="block text-dark-blue">
+                    <a href="/teams" className="block text-dark-blue">
                         <div className="bg-white rounded-lg shadow-lg p-4">
                             <h2 className="text-lg underline font-semibold mb-2">View Teams</h2>
                             <p>View teams and their details</p>
